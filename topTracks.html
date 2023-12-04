@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wrapped Now</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold" rel="stylesheet" type="text/css"/>
+        <script src = "app.js"></script>
+    </head>
+
+    <body onload="getTopTracks(1)">
+
+        <div class="header">
+
+            <div class="leftSection">
+                <a class="wrappedButton" href="https://spotify.com">
+                    <img class="wrappedLogo" src="Logo.png">
+                </a>
+            </div>
+
+            <div class="middleSection">
+                <a class="headerButton" href="./home.html">DISCOVER</a>
+                <a class="headerButton" href="./topTracks.html">TOP TRACKS</a>
+                <a class="headerButton" href="./about.html">ABOUT
+                <a class="headerButton" href="./topArtists.html">TOP ARTISTS</a>
+            </div>
+
+            <div class="rightSection">
+                <button class = "headerButton" style="
+                margin-left: 75px;
+                " onclick = "requestAuth()">LOGIN</button>
+            </div>
+
+        </div>
+
+        <div class="bodyDiv">
+            <div>
+                <button class="containerButtons" onclick="getTopTracks(1)">1 MONTH</button>
+                <button class="containerButtons" onclick="getTopTracks(2)">6 MONTHS</button>
+                <button class="containerButtons" onclick="getTopTracks(3)">ALL TIME</button>
+            </div>
+            <div id="topTracksContainer" class="Containers"></div>
+        </div>
+
+    </body>
+
+</html>
