@@ -1,4 +1,4 @@
-var redirect_uri = "https://wrappednow.netlify.app/";
+var redirect_uri = "https://wrappednow.netlify.app";
 
 var clientID = "7c93cb9ea0c8476cbae408755dfe92fa";
 var clientSecret = "8e14ff226cc943989ae9de4846a1fb70";
@@ -190,4 +190,18 @@ function requestAuth() {
   url += "&show_dialog_true";
   url += "&scope=user-read-private user-read-email user-top-read";
   window.location.href = url;
+}
+
+function logout() {
+  let url = redirect_uri;
+
+  // Clear access token and refresh token from local storage
+  localStorage.removeItem("accessToken");
+  localStorage.removeItem("refreshToken");
+
+  // Reset the access token and refresh token variables
+  accessToken = null;
+  refreshToken = null;
+
+  window.location.href= url;
 }
