@@ -93,7 +93,10 @@
     align-items: center;
     flex-direction: column;
     margin-top: 60px;
+    margin-left: 35px;
+    margin-right: 35px;
     font-family: 'Circular Std Bold', Arial;
+    color: white;
 }
 
 .Containers {
