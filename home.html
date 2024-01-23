@@ -12,7 +12,20 @@
 
     <body onload="onPageLoad()">
 
-        <div class="header">
+        <div class="navBar">
+            <script>
+                fetch('navbar.html')
+                    .then(response => response.text())
+                    .then(navbarHtml => {
+                        // Insert the navbar into the header element
+                        document.querySelector('.navBar').innerHTML = navbarHtml;
+                    });
+            </script>
+        </div>
+
+
+
+        <!--<div class="header">
 
             <div class="leftSection">
                 <a class="wrappedButton" href="https://wrappednow.netlify.app/">
@@ -45,10 +58,10 @@
                 </button>
             </div>
 
-        </div>
+        </div> -->
 
         <div class="bodyDiv">
-            <p style="color:white;">HOME PAGE!!!!!!</p>
+            <p style="color:white;">HOME PAGE</p>
         </div>
 
     </body>
