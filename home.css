@@ -97,10 +97,32 @@
 
 .card {
     margin-top: 10vh;
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    gap: 4vh;
+    gap: 0vh;
+    border-radius: 5vh;
+    padding: 2vh;
+}
+
+.cardButtons {
+    background-color: #1db954;
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 7vh;
+    margin-top: 7vh;
+    border-radius: 2vh;
+}
+
+.cardText {
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 10vw;
+    border-radius:
 }
 
 .Containers {
