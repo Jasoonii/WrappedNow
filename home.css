@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    
 }
 
 .header {
@@ -97,8 +96,11 @@
 }
 
 .card {
-    margin-top  
+    margin-top: 10vh;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
 }
 
 .Containers {
@@ -113,6 +115,7 @@
     text-decoration-line: underline;
     transition: color .2s;
     margin-bottom: 35px;
+    background-color: rgb(25, 20, 20);
 }
 
 .containerButtons:hover {
