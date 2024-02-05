@@ -68,6 +68,16 @@
     background: none;
 }
 
+.logoutButton {
+    color: white;
+    text-decoration: none;
+    font-family:'Circular Std Bold', Arial;
+    font-size: 15px;
+    transition: color .2s;
+    border: none;
+    background: none;
+}
+
 .loginButton:hover {
     color: #1db954;
     cursor: pointer;
