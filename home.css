@@ -97,6 +97,7 @@
 
 .card {
     margin-top: 10vh;
+    margin-right: 60vw;
     background-color: black;
     display: flex;
     flex-direction: column;
