@@ -1,5 +1,5 @@
-var redirect_uri = "http://127.0.0.1:5500/home.html";
-//var redirect_uri = "https://wrappednow.netlify.app/";
+//var redirect_uri = "http://127.0.0.1:5500/home.html";
+var redirect_uri = "https://wrappednow.netlify.app/";
 
 var clientID = "7c93cb9ea0c8476cbae408755dfe92fa";
 var clientSecret = "8e14ff226cc943989ae9de4846a1fb70";
