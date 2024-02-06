@@ -88,6 +88,11 @@
     cursor: pointer;
 }
 
+.logoutButton:hover {
+    color: #1db954;
+    cursor: pointer;
+}
+
 .buttonContainer {
     margin-right: 50px;
 }
