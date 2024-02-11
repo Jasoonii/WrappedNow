@@ -115,6 +115,14 @@ body {
 .bodyDiv {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    font-family: 'Circular Std Bold', Arial;
+    background-color: rgb(25, 20, 20);
+}
+
+.homeBodyDiv {
+    display: flex;
+    align-items: center;
     flex-direction: row;
     font-family: 'Circular Std Bold', Arial;
     background-color: rgb(25, 20, 20);
