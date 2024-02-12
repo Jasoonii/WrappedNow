@@ -65,8 +65,8 @@ body {
 }
 
 .loginButton {
-    color: white;
-    transition: color .2s;
+    background-color: white;
+    transition: background-color .2s;
     border: none;
     border-radius: 5vh;
     padding: 2vh 2.2vw;
@@ -90,7 +90,7 @@ body {
 }
 
 .loginButton:hover {
-    color: #1db954;
+    background-color: #1db954;
     cursor: pointer;
 }
 
