@@ -118,6 +118,7 @@ body {
     flex-direction: column;
     font-family: 'Circular Std Bold', Arial;
     background-color: rgb(25, 20, 20);
+    color: white;
 }
 
 .homeBodyDiv {
